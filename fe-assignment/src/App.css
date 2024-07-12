@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.grid-container {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+
+.ag-theme-alpine {
+  height: 100%;
+  width: 100% !important;
+  min-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    height: auto;
+  }
+}

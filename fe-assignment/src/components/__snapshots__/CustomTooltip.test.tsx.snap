@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTooltip renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <span
+      aria-label="Test Tooltip"
+      class=""
+      data-mui-internal-clone-element="true"
+    >
+      Hover me
+    </span>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "JWT_SECRET": "BTB_Assignment",
+  "RICK_AND_MORTY_API_URL":"https://rickandmortyapi.com/api"
+}

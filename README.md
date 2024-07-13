@@ -36,4 +36,8 @@ the fronend url should be localhost:3000
 the backend url : localhost:5000
 
 please make sure to run both of them 
+for the sake of this task i made mock of 2 users :
+admin role : username -> admin, password -> adminPass
+user role: username -> user , password->userPass
 
+Also this project i used only fetched data from first page of characters (i.e 20 results)

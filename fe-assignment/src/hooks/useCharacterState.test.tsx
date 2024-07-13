@@ -73,7 +73,6 @@ describe('useCharacterState hook', () => {
         { status: 'Dead' },
         expect.any(Object),
       );
-      // Add additional assertions based on expected behavior after edit
     });
   });
 
@@ -84,7 +83,6 @@ describe('useCharacterState hook', () => {
 
     await waitFor(() => {
       expect(screen.getByText('Local Data:')).toBeInTheDocument();
-      // Add additional assertions based on expected behavior after search
     });
   });
 
@@ -97,7 +95,6 @@ describe('useCharacterState hook', () => {
 
     await waitFor(() => {
       expect(screen.getByText('Rick Sanchez')).toBeInTheDocument();
-      // Add additional assertions based on expected behavior after input change
     });
   });
 });
